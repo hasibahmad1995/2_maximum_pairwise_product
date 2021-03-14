@@ -26,45 +26,6 @@
 
 
 
-
-
-
-# def Find_product(a):
-#
-#     mul = []
-#     m = 1
-#     for i in range(0,len(a)-1):
-#         for k in range(m,len(a)):
-#             mul.append(a[i]*a[k])
-#         m+=1
-#     return max(mul)
-#
-# given_values = []
-# tot_val = 0
-# while tot_val < 5:
-#     values = int(input())
-#     given_values.append(values)
-#     tot_val+=1
-# var = Find_product(given_values)
-#
-# print(var)
-
-# def Find_product(a):
-#
-#     sorted_a = sorted(a)
-#     return sorted_a[-1]*sorted_a[-2]
-#
-# given_values = []
-# tot_val = 0
-# while tot_val < 5:
-#     values = int(input())
-#     given_values.append(values)
-#     tot_val+=1
-# var = Find_product(given_values)
-#
-# print(var)
-
-
 def Find_product(a):
 
     sorted_a = sorted(a)
